@@ -17,3 +17,19 @@ print('------双层嵌套------')
 for i in range(1):
     for j in range(3):
         print('*', end='')
+
+# 打印数值
+number = 20
+while number < 1000:
+    print(number)
+    number += 20
+
+# 求1-100的总和
+num2 =1
+total = 0
+while num2 <= 100:
+    total += num2
+    num2 +=1
+
+print('1到100的总和为 %s' % total)
+print('1到100的总和为 {}'.format(total))
