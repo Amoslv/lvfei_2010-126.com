@@ -33,3 +33,11 @@ while num2 <= 100:
 
 print('1到100的总和为 %s' % total)
 print('1到100的总和为 {}'.format(total))
+
+#求1至100之间的基数的和
+# num3 = 0
+num3Total = 0
+for index in range(1, 100, 2):
+    num3Total +=index
+print('1至100之间的奇数和为 %d' % num3Total)
+print('1至100之间的奇数和为 {}'.format(num3Total))
